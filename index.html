@@ -10,99 +10,46 @@
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-	<style>
+	<link rel="stylesheet" href="assets/css/bootstrap-custom.css">
 
-		html {
-			position: relative;
-			min-height: 100%;
-		}
-
-		body {
-			background: url("assets/images/subtle_stripes/subtle_stripes_@2X.png"); 
-			margin-bottom: 3.75em;
-			color: #777777;
-			font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-		}
-		
-		.h1, .h2 {
-			font-family: 'Georgia', Times, "Times New Roman", serif;
-			color: #4aaaa5;
-		}
-
-		.btn-primary {
-			color: white;
-			background-color: #4aaaa5;
-			margin-bottom: 0.5em;
-			margin-top: 0.5em;
-		}
-
-		.active {
-			background-color: #4aaaa5;
-		}
-
-
-		.nav {
-			margin-top: 0.9em;
-		}
-
-		#connect-links {
-			padding-bottom: 0.75em;
-		}
-
-		.footer {
-			text-align: center;
-			padding-top: 0.5em;
-  			position: absolute;
-  			bottom: 0;
-  			width: 100%;
-  			/* Set the fixed height of the footer here */
-  			height: 3.75em;
-  			background-color: #f5f5f5;
-		}
-
-	</style>
 </head>
 <body>
 
 	<nav class="navbar navbar-default">
 
-		<div class ="container">
+        <div class="container">
 
-			<div class = "row">
+        	<div class = "row">
 
-				<div class = "col-xs-1"></div>
+        		<div class = "col-xs-12 col-md-7">
 
-				<div class = "col-xs-10">
+          			<div class="navbar-header">
+            			<a class="navbar-brand" href="index.html">Wesley L. Handy</a>
+          			</div>
 
-					<div class="navbar-header btn btn-lg btn-primary btn-active h1">Wesley L. Handy</div>
-					
-					<ul class="nav navbar-right nav-pills">
-					  <li role="presentation" class="active"><a href="#">About</a></li>
-					  <li role="presentation"><a href="portfolio.html">Portfolio</a></li>
-					  <li role="presentation"><a href="contact.html">Contact</a></li>
-					</ul>
+          		</div>
 
-				</div>
-
-				<div class = "col-xs-1"></div>
-
-			</div>
-
-		</div>
-		
-	</nav>
+          		<div class = "col-xs-12 col-xs-offset-0 col-md-4 col-md-offset-1">
+            		<ul class="nav navbar-nav">
+            			<li><a href="#">About</a></li>
+            			<li><a href="portfolio.html">Portfolio</a></li>
+            			<li><a href="contact.html">Contact</a></li>
+            		</ul>
+            	</div>
+            </div>
+          
+        </div>
+    </nav>
 
 	<section class = "container" id = "main">
 		
 		<div class = "row">
 
-			<div class = "col-xs-1"></div> <!--left buffer-->
-
-			<div class = "col-xs-10"> <!--main content area -->
+			<div class = "col-md-12"> <!--main content area -->
 
 				<div class = "row">
 
-					<div class = "col-xs-7 panel panel-default"> <!-- place for about/port/contact -->
+					<div class = "col-md-7 panel panel-default"> <!-- place for about/port/contact -->
 						<article>
 				
 							<div class = "h2">About Me</div>
@@ -110,15 +57,15 @@
 							
 							<div class = "row">
 
-								<div class="col-xs-4">
+								<div class="col-md-4">
 
 									<img class = "img-rounded img-responsive" src = "assets/images/profile-pic.jpg" alt="wlh profile picture">
 
 								</div>
 
-								<div class = "col-xs-8">
+								<div class = "col-md-8">
 
-									<p>Logic meets beauty, technology meets community, coding meets humanity - web-development brings great joy and satisfaction to me. Whether coding, debugging, collaborating, or just dreaming up new possibilities, you will find in me an asset to your company and your projects.</p>
+									<p>Do you need someone who codes logically <em>and</em> beautifully? Someone who values personal excellence <em>and</em> is a team player? Someone who pursues technological advance as a vital human endeavor?  Whether coding, debugging, collaborating, or just dreaming up new possibilities, you will find in me an asset to your company and your projects.</p>
 
 									<p>I am currently enrolled in the Rutgers Coding Bootcamp where I am learning HTML5, CSS3, javascript, Git, node.js, SQL, and many more vital development languages and tools.</p>
 
@@ -126,23 +73,21 @@
 
 							</div>
 
-
 						</article>
+
 					</div>
 
-					<div class = "col-xs-1"></div> <!--center buffer of main-->
-
-					<div class = "col-xs-4 panel panel-default">
+					<div class = "col-md-3 col-md-offset-1 panel panel-default">
 						
 						<aside>
 
-							<div class = "h2">Connect With Me</div>
+							<div class = "h3">Connect With Me</div>
 
 							<hr />
 
 							<div class = "row" id = "connect-links">
 
-								<div class = "col-xs-4">
+								<div class = "col-md-4">
 
 									<a href="https://github.com/wesleylhandy" target="_blank">
 										<img class = "img-responsive" src = "assets/images/1478399319_github.png">
@@ -150,7 +95,7 @@
 
 								</div>
 
-								<div class = "col-xs-4">
+								<div class = "col-md-4">
 
 									<a href="https://www.linkedin.com/in/wesleylhandy" target="_blank">
 										<img class = "img-responsive" src = "assets/images/linkedin_circle_color-128.png">
@@ -158,7 +103,7 @@
 
 								</div>
 
-								<div class = "col-xs-4">
+								<div class = "col-md-4">
 
 									<a href="http://stackoverflow.com/users/6917743/wlh?tab=profile" target="_blank">
 										<img class = "img-responsive" src = "assets/images/1478399626_stackoverflow.png">
@@ -175,10 +120,6 @@
 				</div>
 
 			</div>
-
-
-
-			<div class = "col-xs-1"></div> <!--right buffer-->
 
 		</div>
 

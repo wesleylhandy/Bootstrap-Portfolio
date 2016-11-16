@@ -1,0 +1,122 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body { 
+    background: url("../images/subtle_stripes/subtle_stripes_@2X.png");
+    margin-bottom: 3.75em;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.h1, .h2, .h3 {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    color: #4aaaa5;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #4aaaa5;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+hr {
+    border-style: solid;
+    border-width: .09375em;
+    border-color: #777777;
+}
+
+aside, article {
+    padding-bottom: .9375em;
+}
+
+.port-pic {
+    position: relative;
+    margin-bottom: 1em;
+}
+
+.port-label {
+    position: absolute;
+    bottom: 1em;
+    left: 1.125em;
+    color: #fff;
+    background-color: #4aaaa5;
+    text-align: center;
+    width: 88.7%;
+    padding: .25em;
+    font-size: 112.5%;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 0.5em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 3.75em;
+    color: #dddddd;
+    background-color: #666666;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: .625em;
+}
+
+/* list of classes to edit to customize the navbar provided by answer on 
+the following link from http://stackoverflow.com/a/18529465/6917743 */
+
+/* navbar */
+.navbar-default {
+    background-color: #Fff;
+    border-color: #cccccc;
+    border-bottom-style: solid;
+    border-bottom-width: .1875em;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #fff;
+    background-color: #4aaaa5;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #777;
+    background-color: #4eaea9;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #4aaaa5;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #4aaaa5;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+
+.panel-default {
+    border: .125em solid #777777;
+}
+
+.nav {
+    margin-top: 0;
+}
+
+
